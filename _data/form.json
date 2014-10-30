@@ -1,0 +1,121 @@
+[
+    {
+        "name": "name",
+        "input": "text",
+        "text": "Your Name",
+        "required": "yes",
+        "category": "logistics"
+    },
+    {
+        "name": "email",
+        "input": "text",
+        "text": "Email",
+        "required": "yes",
+        "category": "logistics"
+    },
+    {
+        "name": "attend",
+        "input": "radio",
+        "text": "Can you attend?",
+        "required": "yes",
+        "category": "logistics"
+    },
+    {
+        "name": "talk",
+        "input": "radio",
+        "text": "Do you want to give a talk about something?",
+        "category": "logistics"
+    },
+    {
+        "name": "topic",
+        "input": "textarea",
+        "text": "If yes, what about?",
+        "category": "logistics"
+    },
+    {
+        "name": "Talk-time",
+        "input": "select",
+        "text": "If yes, how long do you think you could talk?",
+        
+        "category": "logistics",
+        "selection1": "5-8mins",
+        "selection2": "10-12mins",
+        "selection3": "15-18mins"
+    },
+    {
+        "name": "location",
+        "input": "text",
+        "text": "Where are you traveling from?",
+        
+        "category": "care"
+    },
+    {
+        "name": "travel-assistance",
+        "input": "radio",
+        "text": "Do you need travel assistance to attend?",
+        
+        "category": "care"
+    },
+    {
+        "name": "Travel-method",
+        "input": "select",
+        "text": "If yes, what is your preferred travel method?",
+        "category": "care",
+        "selection1": "bus",
+        "selection2": "train",
+        "selection3": "airplane"
+    },
+    {
+        "name": "food",
+        "input": "textarea",
+        "text": "There will be food. Do you have specific dietary restrictions we should know about?",
+        "category": "care"
+    },
+    {
+        "name": "childcare",
+        "input": "radio",
+        "text": "Do you need childcare?",
+        
+        "category": "care"
+    },
+    {
+        "name": "childcare-expand",
+        "input": "textarea",
+        "text": "If yes, please provide more information so we can best figure out if we can meet your needs.",
+        
+        "category": "care"
+    },
+    {
+        "name": "Other-needs",
+        "input": "textarea",
+        "text": "Is there anything else that we should know about you, your interests, your needs for being part of this event?",
+        "category": "care"
+    },
+    {
+        "name": "volunteer",
+        "input": "textarea",
+        "text": "Can you volunteer any skills, services, or donate anything (snacks, printing, etc.)?",   
+        "category": "care"
+    },
+    {
+        "name": "Recommend-name",
+        "input": "text",
+        "text": "Name of one other person you think should be in the room",
+        "required": "yes",
+        "category": "recommend"
+    },
+    {
+        "name": "Recommend-email",
+        "input": "text",
+        "text": "Email address of one person you think should be in the room",
+        "required": "yes",
+        "category": "recommend"
+    },
+    {
+        "name": "Recommend-why",
+        "input": "textarea",
+        "text": "Why do you want this person to be in the room?",
+        "required": "yes",
+        "category": "recommend"
+    }
+]

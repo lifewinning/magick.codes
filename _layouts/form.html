@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<form>
+	{% for item in site.data.form %}
+		{% if item.input == 'textarea' %}
+		<h4>{{item.text}}</h4>
+			<textarea name="{{item.name}}"></textarea>
+		{% endif %}
+		{% if item.input == 'select' %}
+		<h4>{{item.text}}</h4>
+			<select name = "{{item.name}}" name = "{{item.name}}">
+			<option value = "{{item.selection1}}" name ="{{item.selection1}}">{{item.selection1}}</option>
+			<option value = "{{item.selection2}}" name ="{{item.selection2}}">{{item.selection2}}</option>
+			<option value = "{{item.selection3}}" name ="{{item.selection3}}">{{item.selection3}}</option>
+			
+			</select>
+		{% endif %}
+		{% if item.input == 'radio' %}
+		<h4>{{item.text}}</h4>
+			<input type="radio" name = "{{item.name}}" value ="yes">Yes
+			<input type="radio" name = "{{item.name}}" value ="no">No
+		{% endif %}
+		{% if item.input == 'text' %}
+		<h4>{{item.text}}</h4>
+			<input type = "{{item.input}}" name = "{{item.name}}"/>
+		{% endif %}
+	{% endfor %}
+</form>
