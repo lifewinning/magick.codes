@@ -2,7 +2,7 @@
 title: Magick Codes
 email: lifewinning@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  An effort to understand how we live with magick, how we live with machines, and what it means to live with both.
+  A mini coference on magic (with a k or otherwise) and technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://magick.codes" # the base hostname & protocol for your site
 

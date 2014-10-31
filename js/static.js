@@ -38,8 +38,8 @@ function updateGradient() {
   var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
 
  $('.static').css({
-   background: "url('img/static"+sNumber+".png'), -webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-    background: "url('img/static"+sNumber+".png'), -moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+   background: "url('/img/static"+sNumber+".png'), -webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "url('/img/static"+sNumber+".png'), -moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 
   step += gradientSpeed;
   if ( step >= 1 ) {
