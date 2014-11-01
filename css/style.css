@@ -144,7 +144,7 @@ blockquote {
 
 #changenoise{
  display: block;
- position: fixed;
+ position: absolute;
  top: 10px;
  padding-left: 10px;
 
