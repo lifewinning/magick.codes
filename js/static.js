@@ -59,7 +59,10 @@ function updateStatic() {
   else { sNumber += 1; }
 }
 
-$(function() {
-  setInterval(updateGradient,10);
-  setInterval(updateStatic,10);
+$(document).ready(function() {
+      setInterval(updateGradient, 0)
+    $('#noise').click(function() {
+      setInterval(updateStatic,0);
+    });
+  });
 });
