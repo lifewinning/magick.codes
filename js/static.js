@@ -64,5 +64,5 @@ $(document).ready(function() {
     $('#noise').click(function() {
       setInterval(updateStatic,0);
     });
-  });
 });
+
