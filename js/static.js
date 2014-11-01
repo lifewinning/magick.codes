@@ -61,5 +61,5 @@ function updateStatic() {
 
 $(function() {
   setInterval(updateGradient,10);
-  setInterval(updateStatic,50);
+  setInterval(updateStatic,10);
 });
