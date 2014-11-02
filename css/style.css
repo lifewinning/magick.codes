@@ -152,7 +152,8 @@ blockquote {
 /* 5. BUTTONS ================================================== */
 
 .button {
-  display: block;
+  display: inline-block;
+  outline: 0;
 }
 .button:hover {
   background-color: rgba(0,0,0,0.75);
@@ -312,7 +313,7 @@ select, option {
 .container-text {
   background-color: #000;
   padding: 50px;
-  margin: 145px 0;
+  margin: 145px 0 0 0;
 }
 
 .style-guide-header {
