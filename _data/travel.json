@@ -1,0 +1,47 @@
+[
+    {
+        "name": "name",
+        "input": "text",
+        "text": "Your Name",
+        "required": "yes"
+    },
+    {
+        "name": "email",
+        "input": "text",
+        "text": "Email",
+        "required": "yes"
+    },
+    {
+        "name": "travel-needs",
+        "input": "select",
+        "text": "How much coverage do you need for travel?",
+        "selection1": "25%",
+        "selection2": "50%",
+        "selection3": "100%"
+    },
+    {
+        "name": "travel-arrival",
+        "input": "date",
+        "text": "Date you want to arrive?"
+    },
+    {
+        "name": "arrival-time",
+        "input": "select",
+        "text": "Time you want to arrive?",
+        "selection1": "Morning-Afternoon",
+        "selection2": "Afternoon-Evening",
+        "selection3": "Whatever's cheapest"
+    },{
+        "name": "travel-return",
+        "input": "date",
+        "text": "Date you want to leave?"
+    },
+    {
+        "name": "return-time",
+        "input": "select",
+        "text": "Time you want to leave?",
+        "selection1": "Morning-Afternoon",
+        "selection2": "Afternoon-Evening",
+        "selection3": "Whatever's cheapest"
+    }
+]
