@@ -1,5 +1,8 @@
 _site
 .sass-cache
-.DS_Storeinvites.json
+.DS_Store
+invites.json
 /invites/*
 invites.html
+_data/giving-talks.md
+_data/invites.json
